@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED297749158D1C0B0093A54F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297748158D1C0B0093A54F /* UIKit.framework */; };
+		ED29774B158D1C0B0093A54F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED29774A158D1C0B0093A54F /* Foundation.framework */; };
+		ED29774D158D1C0B0093A54F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED29774C158D1C0B0093A54F /* CoreGraphics.framework */; };
+		ED297753158D1C0B0093A54F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED297751158D1C0B0093A54F /* InfoPlist.strings */; };
+		ED297755158D1C0B0093A54F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED297754158D1C0B0093A54F /* main.m */; };
+		ED297759158D1C0B0093A54F /* reactAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED297758158D1C0B0093A54F /* reactAppDelegate.m */; };
+		ED29775C158D1C0B0093A54F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED29775A158D1C0B0093A54F /* MainWindow.xib */; };
+		ED29775F158D1C0B0093A54F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED29775E158D1C0B0093A54F /* RootViewController.m */; };
+		ED297762158D1C0B0093A54F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED297760158D1C0B0093A54F /* RootViewController.xib */; };
+		ED297769158D1CF60093A54F /* dan_conegar.png in Resources */ = {isa = PBXBuildFile; fileRef = ED297768158D1CF60093A54F /* dan_conegar.png */; };
+		ED29776D158D20160093A54F /* input.m in Sources */ = {isa = PBXBuildFile; fileRef = ED29776B158D20160093A54F /* input.m */; };
+		ED29776E158D20160093A54F /* input.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED29776C158D20160093A54F /* input.xib */; };
+		ED297772158D21000093A54F /* textVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED297770158D21000093A54F /* textVC.m */; };
+		ED297773158D21000093A54F /* textVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED297771158D21000093A54F /* textVC.xib */; };
+		ED297777158D22F80093A54F /* voteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED297775158D22F80093A54F /* voteVC.m */; };
+		ED297778158D22F80093A54F /* voteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED297776158D22F80093A54F /* voteVC.xib */; };
+		ED29777C158D252A0093A54F /* gallery.m in Sources */ = {isa = PBXBuildFile; fileRef = ED29777A158D252A0093A54F /* gallery.m */; };
+		ED29777D158D252A0093A54F /* gallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED29777B158D252A0093A54F /* gallery.xib */; };
+		ED29777F158D2AB00093A54F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = ED29777E158D2AB00093A54F /* back.png */; };
+		ED297781158D2CC60093A54F /* gallery_back.png in Resources */ = {isa = PBXBuildFile; fileRef = ED297780158D2CC60093A54F /* gallery_back.png */; };
+		ED29778C158D427F0093A54F /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = ED29778B158D427F0093A54F /* icon_114.png */; };
+		ED29778E158D42840093A54F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED29778D158D42840093A54F /* icon.png */; };
+		ED4F8CEE158E434900823BD4 /* colorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4F8CEC158E434900823BD4 /* colorVC.m */; };
+		ED4F8CEF158E434900823BD4 /* colorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4F8CED158E434900823BD4 /* colorVC.xib */; };
+		ED8919F9158D7D2F008633C2 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8919F8158D7D2F008633C2 /* JSONKit.m */; };
+		ED89FF06158D9D85003FF6CA /* artwork2_x1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED89FF04158D9D85003FF6CA /* artwork2_x1.png */; };
+		ED89FF07158D9D85003FF6CA /* artwork1_x1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED89FF05158D9D85003FF6CA /* artwork1_x1.png */; };
+		ED89FF0A158D9FE1003FF6CA /* select_x1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED89FF09158D9FE0003FF6CA /* select_x1.png */; };
+		ED977229158D93A200775036 /* Entitlements.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = ED977228158D93A200775036 /* Entitlements.entitlements */; };
+		ED97722E158D9A7100775036 /* button_x1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED97722D158D9A7100775036 /* button_x1.png */; };
+		ED977230158D9B1600775036 /* background_x1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED97722F158D9B1600775036 /* background_x1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED297744158D1C0B0093A54F /* react.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297748158D1C0B0093A54F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED29774A158D1C0B0093A54F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED29774C158D1C0B0093A54F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED297750158D1C0B0093A54F /* react-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "react-Info.plist"; sourceTree = "<group>"; };
+		ED297752158D1C0B0093A54F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED297754158D1C0B0093A54F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED297756158D1C0B0093A54F /* react-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "react-Prefix.pch"; sourceTree = "<group>"; };
+		ED297757158D1C0B0093A54F /* reactAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reactAppDelegate.h; sourceTree = "<group>"; };
+		ED297758158D1C0B0093A54F /* reactAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactAppDelegate.m; sourceTree = "<group>"; };
+		ED29775B158D1C0B0093A54F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ED29775D158D1C0B0093A54F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ED29775E158D1C0B0093A54F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ED297761158D1C0B0093A54F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		ED297768158D1CF60093A54F /* dan_conegar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dan_conegar.png; sourceTree = "<group>"; };
+		ED29776A158D20150093A54F /* input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
+		ED29776B158D20160093A54F /* input.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = input.m; sourceTree = "<group>"; };
+		ED29776C158D20160093A54F /* input.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = input.xib; sourceTree = "<group>"; };
+		ED29776F158D21000093A54F /* textVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textVC.h; sourceTree = "<group>"; };
+		ED297770158D21000093A54F /* textVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textVC.m; sourceTree = "<group>"; };
+		ED297771158D21000093A54F /* textVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = textVC.xib; sourceTree = "<group>"; };
+		ED297774158D22F80093A54F /* voteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voteVC.h; sourceTree = "<group>"; };
+		ED297775158D22F80093A54F /* voteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voteVC.m; sourceTree = "<group>"; };
+		ED297776158D22F80093A54F /* voteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = voteVC.xib; sourceTree = "<group>"; };
+		ED297779158D252A0093A54F /* gallery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gallery.h; sourceTree = "<group>"; };
+		ED29777A158D252A0093A54F /* gallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gallery.m; sourceTree = "<group>"; };
+		ED29777B158D252A0093A54F /* gallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = gallery.xib; sourceTree = "<group>"; };
+		ED29777E158D2AB00093A54F /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		ED297780158D2CC60093A54F /* gallery_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery_back.png; sourceTree = "<group>"; };
+		ED29778B158D427F0093A54F /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		ED29778D158D42840093A54F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		ED4F8CEB158E434900823BD4 /* colorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorVC.h; sourceTree = "<group>"; };
+		ED4F8CEC158E434900823BD4 /* colorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = colorVC.m; sourceTree = "<group>"; };
+		ED4F8CED158E434900823BD4 /* colorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = colorVC.xib; sourceTree = "<group>"; };
+		ED64E5E0158D930C004FCE91 /* react.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = react.entitlements; sourceTree = "<group>"; };
+		ED8919F7158D7D2F008633C2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		ED8919F8158D7D2F008633C2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		ED89FF04158D9D85003FF6CA /* artwork2_x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artwork2_x1.png; sourceTree = "<group>"; };
+		ED89FF05158D9D85003FF6CA /* artwork1_x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artwork1_x1.png; sourceTree = "<group>"; };
+		ED89FF09158D9FE0003FF6CA /* select_x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_x1.png; sourceTree = "<group>"; };
+		ED977228158D93A200775036 /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		ED97722D158D9A7100775036 /* button_x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_x1.png; sourceTree = "<group>"; };
+		ED97722F158D9B1600775036 /* background_x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_x1.png; sourceTree = "<group>"; };
+		EDB5AC9D158D7BCE00893B28 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		EDB5AC9E158D7BCE00893B28 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED297741158D1C0B0093A54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED297749158D1C0B0093A54F /* UIKit.framework in Frameworks */,
+				ED29774B158D1C0B0093A54F /* Foundation.framework in Frameworks */,
+				ED29774D158D1C0B0093A54F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED297739158D1C0B0093A54F = {
+			isa = PBXGroup;
+			children = (
+				ED4F8CEB158E434900823BD4 /* colorVC.h */,
+				ED4F8CEC158E434900823BD4 /* colorVC.m */,
+				ED4F8CED158E434900823BD4 /* colorVC.xib */,
+				ED977228158D93A200775036 /* Entitlements.entitlements */,
+				ED8919F7158D7D2F008633C2 /* JSONKit.h */,
+				ED8919F8158D7D2F008633C2 /* JSONKit.m */,
+				EDB5AC9D158D7BCE00893B28 /* NSObject+SBJson.h */,
+				EDB5AC9E158D7BCE00893B28 /* NSObject+SBJson.m */,
+				ED29778D158D42840093A54F /* icon.png */,
+				ED29778B158D427F0093A54F /* icon_114.png */,
+				ED29774E158D1C0B0093A54F /* react */,
+				ED297747158D1C0B0093A54F /* Frameworks */,
+				ED297745158D1C0B0093A54F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED297745158D1C0B0093A54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED297744158D1C0B0093A54F /* react.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED297747158D1C0B0093A54F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297748158D1C0B0093A54F /* UIKit.framework */,
+				ED29774A158D1C0B0093A54F /* Foundation.framework */,
+				ED29774C158D1C0B0093A54F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED29774E158D1C0B0093A54F /* react */ = {
+			isa = PBXGroup;
+			children = (
+				ED97722F158D9B1600775036 /* background_x1.png */,
+				ED97722D158D9A7100775036 /* button_x1.png */,
+				ED64E5E0158D930C004FCE91 /* react.entitlements */,
+				ED297757158D1C0B0093A54F /* reactAppDelegate.h */,
+				ED297758158D1C0B0093A54F /* reactAppDelegate.m */,
+				ED89FF04158D9D85003FF6CA /* artwork2_x1.png */,
+				ED89FF05158D9D85003FF6CA /* artwork1_x1.png */,
+				ED29775A158D1C0B0093A54F /* MainWindow.xib */,
+				ED29775D158D1C0B0093A54F /* RootViewController.h */,
+				ED29775E158D1C0B0093A54F /* RootViewController.m */,
+				ED297760158D1C0B0093A54F /* RootViewController.xib */,
+				ED29776A158D20150093A54F /* input.h */,
+				ED29776B158D20160093A54F /* input.m */,
+				ED29776C158D20160093A54F /* input.xib */,
+				ED29776F158D21000093A54F /* textVC.h */,
+				ED297770158D21000093A54F /* textVC.m */,
+				ED297771158D21000093A54F /* textVC.xib */,
+				ED89FF09158D9FE0003FF6CA /* select_x1.png */,
+				ED297774158D22F80093A54F /* voteVC.h */,
+				ED297775158D22F80093A54F /* voteVC.m */,
+				ED297776158D22F80093A54F /* voteVC.xib */,
+				ED297779158D252A0093A54F /* gallery.h */,
+				ED29777A158D252A0093A54F /* gallery.m */,
+				ED29777B158D252A0093A54F /* gallery.xib */,
+				ED29774F158D1C0B0093A54F /* Supporting Files */,
+			);
+			path = react;
+			sourceTree = "<group>";
+		};
+		ED29774F158D1C0B0093A54F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED297780158D2CC60093A54F /* gallery_back.png */,
+				ED29777E158D2AB00093A54F /* back.png */,
+				ED297768158D1CF60093A54F /* dan_conegar.png */,
+				ED297750158D1C0B0093A54F /* react-Info.plist */,
+				ED297751158D1C0B0093A54F /* InfoPlist.strings */,
+				ED297754158D1C0B0093A54F /* main.m */,
+				ED297756158D1C0B0093A54F /* react-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED297743158D1C0B0093A54F /* react */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED297765158D1C0B0093A54F /* Build configuration list for PBXNativeTarget "react" */;
+			buildPhases = (
+				ED297740158D1C0B0093A54F /* Sources */,
+				ED297741158D1C0B0093A54F /* Frameworks */,
+				ED297742158D1C0B0093A54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = react;
+			productName = react;
+			productReference = ED297744158D1C0B0093A54F /* react.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED29773B158D1C0B0093A54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Momentus Media";
+			};
+			buildConfigurationList = ED29773E158D1C0B0093A54F /* Build configuration list for PBXProject "react" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED297739158D1C0B0093A54F;
+			productRefGroup = ED297745158D1C0B0093A54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED297743158D1C0B0093A54F /* react */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED297742158D1C0B0093A54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED297753158D1C0B0093A54F /* InfoPlist.strings in Resources */,
+				ED29775C158D1C0B0093A54F /* MainWindow.xib in Resources */,
+				ED297762158D1C0B0093A54F /* RootViewController.xib in Resources */,
+				ED297769158D1CF60093A54F /* dan_conegar.png in Resources */,
+				ED29776E158D20160093A54F /* input.xib in Resources */,
+				ED297773158D21000093A54F /* textVC.xib in Resources */,
+				ED297778158D22F80093A54F /* voteVC.xib in Resources */,
+				ED29777D158D252A0093A54F /* gallery.xib in Resources */,
+				ED29777F158D2AB00093A54F /* back.png in Resources */,
+				ED297781158D2CC60093A54F /* gallery_back.png in Resources */,
+				ED29778C158D427F0093A54F /* icon_114.png in Resources */,
+				ED29778E158D42840093A54F /* icon.png in Resources */,
+				ED977229158D93A200775036 /* Entitlements.entitlements in Resources */,
+				ED97722E158D9A7100775036 /* button_x1.png in Resources */,
+				ED977230158D9B1600775036 /* background_x1.png in Resources */,
+				ED89FF06158D9D85003FF6CA /* artwork2_x1.png in Resources */,
+				ED89FF07158D9D85003FF6CA /* artwork1_x1.png in Resources */,
+				ED89FF0A158D9FE1003FF6CA /* select_x1.png in Resources */,
+				ED4F8CEF158E434900823BD4 /* colorVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED297740158D1C0B0093A54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED297755158D1C0B0093A54F /* main.m in Sources */,
+				ED297759158D1C0B0093A54F /* reactAppDelegate.m in Sources */,
+				ED29775F158D1C0B0093A54F /* RootViewController.m in Sources */,
+				ED29776D158D20160093A54F /* input.m in Sources */,
+				ED297772158D21000093A54F /* textVC.m in Sources */,
+				ED297777158D22F80093A54F /* voteVC.m in Sources */,
+				ED29777C158D252A0093A54F /* gallery.m in Sources */,
+				ED8919F9158D7D2F008633C2 /* JSONKit.m in Sources */,
+				ED4F8CEE158E434900823BD4 /* colorVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED297751158D1C0B0093A54F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED297752158D1C0B0093A54F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED29775A158D1C0B0093A54F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED29775B158D1C0B0093A54F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ED297760158D1C0B0093A54F /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED297761158D1C0B0093A54F /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED297763158D1C0B0093A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED297764158D1C0B0093A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED297766158D1C0B0093A54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "react/react-Prefix.pch";
+				INFOPLIST_FILE = "react/react-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED297767158D1C0B0093A54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "react/react-Prefix.pch";
+				INFOPLIST_FILE = "react/react-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED97722B158D940300775036 /* ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anna BILLSTROM";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C5C811CF-D02D-4FE0-A8EB-5B5135AF7FFA";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "ad-hoc";
+		};
+		ED97722C158D940300775036 /* ad-hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Anna BILLSTROM";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "react/react-Prefix.pch";
+				INFOPLIST_FILE = "react/react-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C5C811CF-D02D-4FE0-A8EB-5B5135AF7FFA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "ad-hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED29773E158D1C0B0093A54F /* Build configuration list for PBXProject "react" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED297763158D1C0B0093A54F /* Debug */,
+				ED297764158D1C0B0093A54F /* Release */,
+				ED97722B158D940300775036 /* ad-hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED297765158D1C0B0093A54F /* Build configuration list for PBXNativeTarget "react" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED297766158D1C0B0093A54F /* Debug */,
+				ED297767158D1C0B0093A54F /* Release */,
+				ED97722C158D940300775036 /* ad-hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED29773B158D1C0B0093A54F /* Project object */;
+}
